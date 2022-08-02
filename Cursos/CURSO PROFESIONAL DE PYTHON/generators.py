@@ -23,7 +23,8 @@ def fibo_gen():
 
 
 if __name__ == '__main__':
+   
     fibonacci = fibo_gen()
     for element in fibonacci:
         print(element)
-        time.sleep(1)
+        # time.sleep(1)
